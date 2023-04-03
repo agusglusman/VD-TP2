@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+ </head>
+
+<body>
+  <div class="top">
+    <div class="col-12"> 
+      <h1> VISUALIZACIÓN DE DATOS | LTD - LED - UTDT </h1>
+      <h5> Agustina Glusman y Juan Francisco Varvello</h5>
+      
+      <img class = "center" src="grafico.png" alt="grafico" >
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-12">
+      <p>
+        <b class='subtitulo'>GENERO y NACIMIENTO</b>
+      <div>
+        En el gráfico a continuación, vinculamos los datos de los <b>años de nacimiento</b> de los astronautas y sus respectivos<b>generos</b>. Con esta relacion podemos ver la evolucion de la participacion de las mujeres en el rubro astroespacial a lo largo de los años. 
+      </div>
+      </p>
+      
+      <iframe src="vd_astronautas/genero_nacimiento/index.html"></iframe>
+
+      <p>
+        <b class='subtitulo'>OCUPACION</b>
+      <div>
+        En el gráfico a continuación, utilizamos la columna <b>ocupacion</b> (datos
+        cuantitativos) para cuantificar la cantidad de astronautas en cada rol.
+      </div>
+      </p>
+
+      <iframe src="vd_astronautas/ocupacion/index.html"></iframe>
+
+
+      <p>
+        <b class='subtitulo'>GENERO</b>
+      <div>
+        En el gráfico a continuación, utilizamos la columna <b>genero</b> (datos
+        cuantitativos) para cuantificar la cantidad de astronautas femeninas y masculinos.
+      </div>
+      </p>
+
+
+      <iframe src="vd_astronautas/genero/index.html"></iframe>
+
+
+      <p>
+        <b class='subtitulo'>GENERO y PAIS</b>
+      <div>
+        En el gráfico a continuación, utilizamos la columna <b>genero</b> (datos
+        cuantitativos) para cuantificar la cantidad de astronautas femeninas y masculinos. Ademas, utilizamos la
+        columna <b>pais</b> para agrupar los datos.
+      </div>
+      </p>
+
+
+      <iframe src="vd_astronautas/genero_pais/index.html"></iframe>
+
+
+      <p>
+        <b class='subtitulo'>PAIS</b>
+      <div>
+        En el gráfico a continuación, utilizamos la columna <b>pais</b> para cuantificar la cantidad de astronautas
+        por pais
+      </div>
+      </p>
+
+
+      <iframe src="vd_astronautas/pais/index.html"></iframe>
+
+
+      <p>
+        <b class='subtitulo'>STATUS</b>
+      <div>
+        En el gráfico a continuación, utilizamos la columna <b>ocupacion</b> (datos
+        cuantitativos) para cuantificar la cantidad de astronautas en cada rol.
+      </div>
+      </p>
+
+      <iframe src="vd_astronautas/status/index.html"></iframe>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"> </script>
+  <script>
+    hljs.highlightAll()
+    iFrameResize({})
+    //iFrameResize();
+    //var pymParent = new pym.Parent(" chart_01_x", "./chart_01_x/index.html" , {}); 
+  </script>
+</body >
+
+</html >
