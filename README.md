@@ -19,7 +19,6 @@ Los campos son:
 ## GRAFICO 1 - OCUPACION
 
 **Canal de magnitud:**
-
 - Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas en cada ocupacion.
 
 **Canal de identidad:**
