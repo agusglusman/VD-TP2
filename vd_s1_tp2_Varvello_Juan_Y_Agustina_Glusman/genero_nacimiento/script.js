@@ -4,24 +4,22 @@ d3.csv("astronautas.csv", d3.autoType).then((data) => {
     
     marks: [
 
-      Plot.areaY(data.filter(d => d.genero == "masculino"),
+      Plot.barY(data.filter(d => d.genero == "masculino"),
       Plot.groupX({
         y: "count",
       },
       {
         x: "anio_nacimiento",
-        curve: "natural",
         fill: "genero",
       })
     ),
-    Plot.areaY(data.filter(d => d.genero == "femenino"),
+    Plot.barY(data.filter(d => d.genero == "femenino"),
     Plot.groupX({
       y: "count",
     },
     {
       
       x: "anio_nacimiento",
-      curve: "natural",
       fill: "genero",
     })
 
@@ -30,9 +28,7 @@ d3.csv("astronautas.csv", d3.autoType).then((data) => {
     
     x:{
       label: "Nacimiento",
-      domain: [1953,1976]
-      
-      
+    
     },
 
     y:{
@@ -42,7 +38,7 @@ d3.csv("astronautas.csv", d3.autoType).then((data) => {
       grid: true,
       
     },
-    
+    width:1000,
     marginLeft: 70,
     line: true,
     color: {
