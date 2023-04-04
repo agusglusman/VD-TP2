@@ -3,7 +3,7 @@ d3.csv("astronautas.csv", d3.autoType).then((data) => {
   let counts = d3.rollup(
     data,
     v => v.length, // Contar la cantidad de astronautas en cada grupo
-    d => d.nacionalidad // Agrupar por ocupación
+    d => d.nacionalidad // Agrupar por nacionalidad
   );
   let chart = Plot.plot({
     marks: [
@@ -11,7 +11,7 @@ d3.csv("astronautas.csv", d3.autoType).then((data) => {
   
         x: d => d[0], // Usar la ocupación como eje x
         y: d => d[1], // Usar la cantidad como eje y
-        fill: d => d[0], // Usar la ocupación como color
+        fill: d => d[0], // Usar la nacionalidad como color
       }),
       Plot.text(counts, {
         x: d => d[0],
