@@ -1,4 +1,3 @@
-
 d3.csv("astronautas.csv", d3.autoType).then((data) => {
   
   let counts = d3.rollup(
@@ -13,6 +12,13 @@ d3.csv("astronautas.csv", d3.autoType).then((data) => {
         x: d => d[0], // Usar la ocupación como eje x
         y: d => d[1], // Usar la cantidad como eje y
         fill: d => d[0], // Usar la ocupación como color
+      }),
+      Plot.text(counts, {
+        x: d => d[0],
+        y: d => d[1] + 2, // Adjust the y-position of the text
+        text: d => d[1], // Use the quantity as the text label
+        fill: d => d[0],
+        align: "center",
       }),
     ],
 
