@@ -19,33 +19,34 @@ Los campos son:
 ## GRAFICO 1 - OCUPACION
 
 **Canal de magnitud:**
--Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas en cada ocupacion.
+
+- Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas en cada ocupacion.
 
 **Canal de identidad:**
--Utilizamos los distintos colores como atributo categorico para diferenciar las distintas ocupaciones.
+- Utilizamos los distintos colores como atributo categorico para diferenciar las distintas ocupaciones.
 
 ## GRAFICO 2 - PAIS
 
 **Canal de magnitud:**
--Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas en cada pais.
--Ademas, utilizamos los numeros encima de cada barra como otro atributo cuatitativo para representar el numero exacto de astronautas en cada pais.
+- Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas en cada pais.
+- Ademas, utilizamos los numeros encima de cada barra como otro atributo cuatitativo para representar el numero exacto de astronautas en cada pais.
 
 **Canal de identidad:**
--Utilizamos los distintos colores como atributo categorico para diferenciar los distintos paises.
+- Utilizamos los distintos colores como atributo categorico para diferenciar los distintos paises.
 
 ## GRAFICO 3 - GENERO Y NACIMIENTO
 
 **Canal de magnitud:**
--Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas de genero masculino y femenino.
+- Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas de genero masculino y femenino.
 
 **Canal de identidad:**
--Utilizamos los distintos colores como atributo categorico para diferenciar los generos de los distintos astronautas, femenino o masculino.
+- Utilizamos los distintos colores como atributo categorico para diferenciar los generos de los distintos astronautas, femenino o masculino.
 
 ## GRAFICO 4 - GENERO Y PAIS
 
 **Canal de magnitud:**
--Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas de genero masculino y femenino.
+- Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas de genero masculino y femenino.
 
 **Canal de identidad:**
--Utilizamos los distintos colores como atributo categorico para diferenciar los generos de los distintos astronautas, femenino o masculino.
--Ademas, utilizamos remarcos o frames como atributo categorico para diferenciar distintos paises.
+- Utilizamos los distintos colores como atributo categorico para diferenciar los generos de los distintos astronautas, femenino o masculino.
+- Ademas, utilizamos remarcos o frames como atributo categorico para diferenciar distintos paises.
