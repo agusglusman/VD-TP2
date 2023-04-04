@@ -16,7 +16,7 @@ Los campos son:
 10. **eva_mision_hs:** Duración de las actividades extravehiculares (EVA) en horas
 
 
-**GRAFICO 1 - OCUPACION**
+## GRAFICO 1 - OCUPACION
 
 Canal de magnitud:
 -Utilizamos la longitud de las barras como atributo cuantitativo para representar la cantidad de astronautas en cada ocupacion.
