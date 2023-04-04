@@ -38,7 +38,7 @@ d3.csv("astronautas.csv", d3.autoType).then((data) => {
       grid: true,
       
     },
-    width:1000,
+    width:900,
     marginLeft: 70,
     line: true,
     color: {
