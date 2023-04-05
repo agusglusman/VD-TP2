@@ -48,4 +48,4 @@ Los campos son:
 
 **Canal de identidad:**
 - Utilizamos los distintos colores como atributo categorico para diferenciar los generos de los distintos astronautas, femenino o masculino.
-- Ademas, utilizamos remarcos o frames como atributo categorico para diferenciar distintos paises.
+- Ademas, utilizamos remarcos o frames como atributo categorico para diferenciar distintos paises. hola
